@@ -1,7 +1,29 @@
-header {
+.meu-bg {
   background-color: #000346;
 }
 
-.menu-perfil {
+
+.menu-perfil-texto {
   color: #00F0FF;
+}
+
+.ola-fulano {
+  background-color: #000346;
+}
+
+.dropdown-menu.show {
+  background-color: #000346;
+}
+
+.dropdown-item {
+  color: #00F0FF;
+}
+
+.nav-button {
+  background-color: #FFD600;
+  padding: 2px 22px;
+}
+
+.nav-button:hover {
+  background-color: white;
 }
