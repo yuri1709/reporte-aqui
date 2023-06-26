@@ -45,6 +45,17 @@
   background-color: white;
 }
 
+.bt2 {
+  color: white;
+  
+  background-color: gray ;
+  padding: 2px 22px;
+}
+
+.bt2:hover {
+  background-color: green;
+}
+
 
 .painel-titulo {
   background-color: #00eeff48;
