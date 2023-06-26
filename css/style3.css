@@ -22,3 +22,15 @@ body {
 .paddingRegistro {
     padding-top: 150px;
 }
+
+footer {
+    background-color:#004a8d;
+    color: white;
+  }
+  
+  @media (max-width: 767px) {
+    .fixed-bottom {
+      position: relative;
+      margin-top: 0% ;
+    }
+  }

@@ -1,6 +1,6 @@
 
 .meu-bg {
-  background-color: #000346;
+  background-color: #004a8d; 
 }
 
 .bg-pessoas-online {
@@ -24,7 +24,7 @@
 }
 
 .dropdown-menu.show {
-  background-color: #000346;
+  background-color: #004a8d;
 }
 
 /* a.dropdown-item {
@@ -81,10 +81,13 @@ img {
 
 
 footer {
-  background-color: #000346;
+  background-color:#004a8d;
   color: white;
 }
-
+.fixed-bottom {
+  position: relative;
+  margin-top: 7%
+}
 @media (max-width: 767px) {
   
   .fixed-bottom {
