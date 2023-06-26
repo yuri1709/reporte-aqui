@@ -1,5 +1,17 @@
+
 .meu-bg {
   background-color: #000346;
+}
+
+.bg-pessoas-online {
+  background-color: #000346;
+  color:#FFD600
+}
+
+.bg-mensagens {
+  background-color: #00eeff48 ;
+  padding: 12px 16px;
+  border-radius: 18px;
 }
 
 
@@ -15,6 +27,11 @@
   background-color: #000346;
 }
 
+/* a.dropdown-item {
+  
+} */
+
+
 .dropdown-item {
   color: #00F0FF;
 }
@@ -26,4 +43,52 @@
 
 .nav-button:hover {
   background-color: white;
+}
+
+
+.painel-titulo {
+  background-color: #00eeff48;
+}
+
+.painel-aluno {
+  display: flex;
+  align-items: center;
+  background-color: #00eeff48;
+}
+
+.corpo-aluno {
+  background-color: #000346;
+  display: flex;
+}
+
+img {
+  max-width: 100%;
+}
+
+.option-service {
+  display: flex;
+  place-content: center;
+  width: 280px;
+  height: 180px;
+  background-color: #FFD600;
+}
+
+.container-pessoas-online {
+  background-color:#00eeff48;
+
+  height: 100%;
+}
+
+
+footer {
+  background-color: #000346;
+  color: white;
+}
+
+@media (max-width: 767px) {
+  
+  .fixed-bottom {
+    position: relative;
+    margin-top: 35% ;
+  }
 }

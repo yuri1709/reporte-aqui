@@ -5,51 +5,91 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/style.css">
+   <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
   <script src="js/bootstrap.min.js"></script>
   <title>Document</title>
 </head>
-<body>
-<!-- <div class="container-fluid"> -->
+<body class="bg-dark">
+<div class="container-fluid d-flex-column">
   <header class="row">
-   <div class="col-12 px-0">
-    <nav class="navbar navbar-expand-lg navbar-light meu-bg">
-      <div class="navbar-brand my-3 mx-3">
+   <div class="col-12 px-0"> 
+    <nav class="navbar navbar-expand-md meu-bg">
+      <div class="navbar-brand">
         <img src="img/logo.png" alt="Logo-Reporte-Aqui">
       </div>
       <ul class="row navbar-nav ml-auto d-flex flex-row align-items-center">
-        <li class="nav-item col-6 col-md-4">
+        <li class="nav-item col-6 col-sm-4">
           <a class="nav-link" href=""><button type="button" class="btn nav-button"><span class="font-weight-bold">suportes</span></button></a>
         </li>
-        <li class="nav-item col-6 col-md-4">
+        <li class="nav-item col-6 col-sm-4">
           <a class="nav-link" href=""><button type="button" class="btn nav-button"><span class="font-weight-bold">empresa</span></button></a>
         </li>
-        <li class="nav-item col-md-4">
-          <div class="my-2 mx-5 ola-fulano m-auto id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <li class="nav-item col-6 col-sm-4">
+          <div class="ola-fulano m-auto id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             <a href="" class="nav-link"><img src="/img/perfil-de-usuario-yellow.png" alt="imagem perfil amarela"></a>
             <p class="menu-perfil-texto">Olá, fulano</p>
-            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <div class="dropdown-menu dropdown-menu-lg-start" aria-labelledby="dropdownMenuButton">
               <a class="dropdown-item" href="#">Action</a>
-              <a class="dropdown-item" href="#">Another action</a>
-              <a class="dropdown-item" href="#">Something else here</a>
+              <a class="dropdown-item" href="#">Another</a>
+              <a class="dropdown-item" href="#index.html">Sair</a>
             </div>
           </div>
         </li>
       </ul>
     </nav>
    </div>
-    
   </header>
 
  <!-- MEIO DA PAGINA -->
  <section>
-  <div class="row">
-    <div class="col-sm-8">col-sm-8</div>
-    <div class="col-sm-4">col-sm-4</div>
+  <div class="row my-5 d-flex justify-content-around">
+    <!-- painel-do-aluno -->
+    <article class="col-12 col-sm-6">
+      <div class="p-2 painel-aluno">
+        <img src="img/pessoas.png" alt="">
+        <h3 class="px-3">Painel do Aluno</h3>
+      </div>
+      <div class="p-3 container corpo-aluno">
+        <div class="row m-auto">
+          <div class="option-service my-2 mx-md-5 d-flex-column">
+            <img src="img/fixar.png" alt="">
+          </div>
+          
+          <div class="option-service my-2 mx-md-5">
+            <img src="img/smartphone.png" alt="">
+          </div>
+          <div class="option-service my-2 mx-md-5">
+            <img src="img/localizacao.png" alt="">
+          </div>
+        </div>
+      </div>
+    </article>
+
+    <article class="col-sm-4 my-5">
+      <h4 class= "text-center bg-pessoas-online">
+        Pessoas online
+      </h4>
+      <div class="container container-pessoas-online">
+
+      </div>
+      <div class="my-5 ml-auto col-4 my-5 d-flex justify-content-around align-items-center flex-row bg-mensagens">
+          <img src="img/falar.png" alt="">
+          <h6>Mensagens</h6>
+      </div>
+     
+    </article>
+    
   </div>
  </section>
-
 </div>
 
+<footer class="navbar fixed-bottom d-flex justify-content-center text-center">
+  <h6 class="ft-msg">ReporteAqui©2023 Todos os direitos resevardos</h6>
+</footer>
 
 
 
@@ -57,10 +97,6 @@
 
 
 
-  <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+ 
 </body>
 </html>

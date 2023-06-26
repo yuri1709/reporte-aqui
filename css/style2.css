@@ -1,0 +1,36 @@
+body {
+  background-color: #004a8d;
+}
+
+#formulário {
+  display: flex;
+  justify-content: center;
+  padding: 5%;
+}
+
+.form-group {
+  color: orange;
+}
+
+.cor-sm {
+  color: orange;
+}
+
+.botao {
+  justify-content: space-between;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-with: 500px) {
+  .fixed-bottom {
+    position: relative;
+  }
+}
+
+.img-footer {
+  margin-right: 10px;
+}
